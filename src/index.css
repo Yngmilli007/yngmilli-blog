@@ -1,13 +1,157 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: "Quicksand";
+  color: #333;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  body{
+    background-image: url(social-media-networking-online-communication-connect-concept.jpg);
+  }
+
+
+
+.navbar {
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  max-width: 600px;
+  margin: 0 auto;
+  border-bottom: 2px solid #f81111;
 }
+.navbar h1 {
+  color: #f13535;
+}
+.navbar .links {
+  margin-left: auto;
+}
+.navbar a {
+  margin-left: 16px;
+  font-size: large;
+  font-weight: 700;
+  text-decoration: none;
+  padding: 6px;
+  color: red;
+}
+.navbar a:hover {
+  color: #e9e90a;
+}
+
+ 
+
+.write-up{
+  color: rgb(225, 14, 46);
+  font-weight: 700;
+  font-size: 2em;
+}
+
+.write-up span{
+  color: #fff;
+}
+.content {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+/* blog preview */
+
+.blog-preview{
+  padding: 10px 16px;
+  margin: 20px 0;
+  border-bottom: 1px solid white;
+}
+
+
+.blog-preview:hover{
+  box-shadow: 4px 6px 9px rgba(2, 1, 1, 0.3);
+}
+.blog-preview h2{
+  font-size: 20px;
+  color: rgb(217, 72, 53);
+  margin-bottom: 8px;
+}
+
+.blog-preview a{
+  text-decoration: none;
+}
+
+.blog-preview p {
+  color: white;
+}
+
+.blog-details h2 {
+  font-size: 20px;
+  color:#f1356d;
+  margin-bottom: 10px;
+}
+
+.blog-details div{
+  margin: 20px;
+  margin-left: 0;
+  color: white;
+}
+.blog-details p{
+  color: white;
+}
+.blog-details button {
+  background: #f1356d;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.blog-details button:hover{
+  background: #fff;
+  transition: all .50s ease;
+  color: black;
+} 
+
+/* create new blog form */
+.create {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+.create label {
+  color: white;
+  font-weight: bolder;
+  text-align: left;
+  display: block;
+}
+.create h2 {
+  font-size: 26px;
+  font-weight: 500px;
+  color: white;
+  margin-bottom: 30px;
+}
+.create input, .create textarea, .create select {
+  
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+}
+.create button {
+  background: #f1356d;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.about-css p{
+  color: white;
+  font-weight: 700;
+  line-height: 1.4;
+}
+
+
+
+
